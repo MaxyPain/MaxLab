@@ -1,0 +1,393 @@
+@media screen and (max-width: 1400px) {
+    section .container{
+        width:40%;
+        flex-wrap: wrap;
+        padding: 50px;
+    }
+    section .container1{
+        width:40%;
+        flex-wrap: wrap;
+        padding: 50px;
+    }
+    section .container img{
+        height: 80px;
+    }
+    section .container p{
+        font-size: 18px;
+    }
+    section .container1 img{
+        height: 80px;
+    }
+    section .container1 p{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 1306px) {
+    section .container{
+        width:40%;
+        flex-wrap: wrap;
+        padding: 50px;
+    }
+    section .container1{
+        width:40%;
+        flex-wrap: wrap;
+        padding: 50px;
+    }
+}
+@media screen and (max-width: 1250px) {
+    section .container{
+        width:40%;
+        flex-wrap: wrap;
+        padding: 40px;
+    }
+    section .container1{
+        width:40%;
+        flex-wrap: wrap;
+        padding: 40px;
+    }
+}
+@media screen and (max-width: 1130px) {
+    section .container{
+        width:40%;
+        flex-wrap: wrap;
+        padding: 30px;
+    }
+    section .container1{
+        width:40%;
+        flex-wrap: wrap;
+        padding: 30px;
+    }
+    section .container img{
+        height: 80px;
+    }
+    section .container p{
+        font-size: 18px;
+    }
+    section .container1 img{
+        height: 80px;
+    }
+    section .container1 p{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 1040px){
+    header{
+        padding: 12px 20px;
+    }
+    header .navigation{
+        display: none;
+    }
+    header .navigation.active{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(1, 1, 1, 0.5);
+    }
+    header .navigation .navigation-items a{
+        color: #222;
+        font-size: 1.2em;
+        margin: 20px;
+    }
+    header .navigation .navigation-items a:before{
+        background: #222;
+        height: 5px;
+
+    }
+    header .navigation.active .navigation-items{
+        background: #fff;
+        width: 600px;
+        max-width: 600px;
+        margin: 20px;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 5px;
+        box-shadow: 0 5px 25px rgb(1, 1, 1 / 20%);
+    }
+
+    .menu-btn{
+        background: url(assets/Images/menu.png)no-repeat;
+        background-size: 30px;
+        background-position: center;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        transition: 0.3s ease;
+        filter: brightness(0) invert();
+    }
+    .menu-btn.active{
+        z-index: 999;
+        background: url(assets/Images/close.png)no-repeat;
+        background-size: 25px;
+        background-position: center;
+        transition: 0.4s ease;
+    }
+}
+@media screen and (max-width: 1012px) {
+    section .container{
+        width:40%;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    section .container p{
+        font-size: 25px;
+    }
+    section .Features h1{
+        font-size: 35px;
+    }
+    
+    section .Features p{
+        font-size: 20px;
+    }
+    section .container1{
+        width:40%;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    section .container1 p{
+        font-size: 20px;
+    }
+    section .Guarantees h1{
+        font-size: 35px;
+    }
+    
+    section .Guarantees p{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 930px) {
+    section .container{
+        width:40%;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    section .container p{
+        font-size: 20px;
+    }
+    section .container1{
+        width:40%;
+        flex-wrap: wrap;
+        padding: 3px;
+    }
+    section .container1 p{
+        font-size: 20px;
+    }
+    section .container img{
+        height: 80px;
+    }
+    section .container1 img{
+        height: 80px;
+    }
+    #sdn{ 
+        height: 50vh;
+        padding-top: 0;
+    }
+    section .searchdomain h1{
+        font-size: 40px;
+    }
+    section .searchdomain p{
+        font-size: 20px;
+    }
+    section .searching input{
+        width: 300;
+    }
+}
+
+@media screen and (max-width: 873px){
+    #Services{
+        padding-top: 305px;
+    }
+    section .Services h1{
+        font-size: 40px;
+    }
+    section .Services p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 582px){
+    #Services{
+        padding-top: 655px;
+    }
+    section .Services h1{
+        font-size: 40px;
+    }
+    section .Services p{
+        font-size: 15px;
+    }
+    section .searchdomain h1{
+        font-size: 35px;
+    }
+    section .searchdomain p{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 344px){
+    section .Services h1{
+        font-size: 30px;
+    }
+    section .Services p{
+        font-size: 12px;
+    }
+    section .searchdomain h1{
+        font-size: 30px;
+    }
+    section .searchdomain p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 760px){
+    section .features{
+        flex-wrap: wrap;
+    }
+    section .container{
+        width: 26%;
+        flex-wrap: wrap;
+        padding: 33px;
+    }
+    section .guaranetee{
+        flex-wrap: wrap;
+    }
+    section .container1{
+        width: 50%;
+        flex-wrap: wrap;
+        padding: 13px;
+    }
+    section .Features h1{
+        font-size: 40px;
+    }
+    
+    section .Features p{
+        font-size: 15px;
+    
+    }
+    section .Features h1{
+        padding-top: 45px;
+
+    }
+    section .Guarantees h1{
+        font-size: 40px;
+    }
+    
+    section .Guarantees p{
+        font-size: 15px;
+    
+    }
+    section .Guarantees h1{
+        padding-top: 45px;
+
+    }
+    section .container img{
+        height: 80px;
+    }
+    section .container p{
+        font-size: 17px;
+    }
+    section .container1 img{
+        height: 80px;
+    }
+    section .container1 p{
+        font-size: 17px;
+    }
+    #Features{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        background-color: rgb(185, 85, 179);
+        width: 100%; 
+        height: 107vh;
+    }
+}
+@media screen and (max-width: 650px){
+    section .container img{
+        height: 80px;
+    }
+    section .container p{
+        font-size: 16px;
+    }
+    section .container1 img{
+        height: 80px;
+    }
+    section .container1 p{
+        font-size: 16px;
+    }
+    #Features{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        background-color: rgb(185, 85, 179);
+        width: 100%; 
+        height: 105vh;
+    }
+    section .Features h1{
+        font-size: 35px;
+    }
+    
+    section .Features p{
+        font-size: 13px;
+    }
+    section .Guarantees h1{
+        font-size: 35px;
+    }
+    
+    section .Guarantees p{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 560px){
+    section .container img{
+        height: 70px;
+    }
+    section .container p{
+        font-size: 12px;
+    }
+    section .container1 img{
+        height: 70px;
+    }
+    section .container1 p{
+        font-size: 12px;
+    }
+    section .container{
+        justify-content: center;
+    }
+    section .container1{
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 440px){
+    section .Features h1{
+        font-size: 30px;
+    }
+    
+    section .Features p{
+        font-size: 10px;
+    }
+    section .Guarantees h1{
+        font-size: 30px;
+    }
+    
+    section .Guarantees p{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 330px){
+    section .Features h1{
+        font-size: 25px;
+    }
+    
+    section .Features p{
+        font-size: 7px;
+    }
+    section .Guarantees h1{
+        font-size: 25px;
+    }
+    
+    section .Guarantees p{
+        font-size: 7px;
+    }
+}
